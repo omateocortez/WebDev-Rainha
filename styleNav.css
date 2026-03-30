@@ -1,0 +1,44 @@
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.navbarMain {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.202), rgba(255, 166, 0, 0.16)) !important;
+    border-bottom: solid 2px orange;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.nav-item:hover,
+.nav-link:hover {
+    color: red !important;
+    padding-bottom: 5px !important;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.cartao {
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(113, 113, 113, 0.413);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(255, 235, 205, 0.389);
+}
+
+.cartao:hover {
+    box-shadow: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* NAVBAR */
+.navbar {
+    transition: 0.3s !important;
+}
+
+.nav-link {
+    font-weight: 200;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.nav-link:hover {
+    font-weight: 300;
+    transition: all 0.3s ease-in-out !important;
+}
+
+
+
+
+/* HERO */
+
+.hero {
+    background: linear-gradient(15deg, #0c1b29, #6020c0);
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+}
+
+.btn-cta {
+    border-radius: 20px;
+    padding: 10px 25px;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.btn-cta:hover {
+    background-color: #6020c0;
+    transform: scale(1.05) !important;
+    transition: all 0.3s ease-in-out !important;
+}
