@@ -1,0 +1,30 @@
+body {
+    font-family: "Montserrat" !important;
+    background-color: #f8f9fa;
+    color: #2c3e50;
+}
+
+.titulo {
+    color: #2c3e50;
+}
+
+.subtitulo {
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.card {
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+    border: none !important;
+    outline: none !important;
+    border-radius: 20px !important;
+    background-color: rgba(231, 228, 223, 0.174) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: none !important;
+    transition: all 0.3s ease-in-out;
+
+}
