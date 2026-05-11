@@ -55,8 +55,8 @@ body {
 }
 
 .site-nav.scrolled {
-  background: rgba(11, 31, 46, 0.92);
-  backdrop-filter: blur(20px);
+  background: rgba(11, 31, 46, 0.91);
+  backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(20px);
   padding: 0.75rem 0;
   box-shadow: 0 1px 0 var(--border), 0 8px 32px rgba(0,0,0,0.3);
