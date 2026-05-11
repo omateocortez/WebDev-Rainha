@@ -3,233 +3,332 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vidas que Florescem é um projeto social voluntário no nordeste brasileiro que fortalece comunidades com cuidado, água, formação e presença.">
   <title>Vidas que Florescem</title>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark site-nav" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-      <span class="brand-icon">🌱</span>
-      <span class="brand-text">Vidas que Florescem</span>
-    </a>
-    <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="nav">
-      <ul class="navbar-nav align-items-lg-center gap-lg-1">
-        <li class="nav-item"><a class="nav-link nav-link-custom" href="#sobre">Sobre</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-custom" href="#projetos">Projetos</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-custom" href="#impacto">Impacto</a></li>
-        <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-          <a href="#apoiar" class="btn btn-donate">Apoiar agora</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- HERO -->
-<section class="hero d-flex align-items-center" id="sobre">
-  <div class="hero-overlay"></div>
-  <div class="hero-particles">
-    <span class="particle p1"></span>
-    <span class="particle p2"></span>
-    <span class="particle p3"></span>
-    <span class="particle p4"></span>
-    <span class="particle p5"></span>
-  </div>
-  <div class="container text-center position-relative">
-    <span class="hero-eyebrow">Projeto Social</span>
-    <h1 class="hero-title">Cultivando Água,<br>Vida e Futuro</h1>
-    <p class="hero-subtitle">Um projeto voluntário que transforma comunidades<br class="d-none d-md-inline"> através do cuidado com os recursos naturais.</p>
-    <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
-      <a href="#projetos" class="btn btn-main">Conheça o projeto</a>
-      <a href="#impacto" class="btn btn-ghost">Ver impacto</a>
-    </div>
-    <div class="hero-stats mt-5 d-flex justify-content-center gap-4 gap-md-5 flex-wrap">
-      <div class="stat-item">
-        <span class="stat-num">1.2k</span>
-        <span class="stat-label">Famílias atendidas</span>
-      </div>
-      <div class="stat-divider d-none d-md-block"></div>
-      <div class="stat-item">
-        <span class="stat-num">38</span>
-        <span class="stat-label">Comunidades</span>
-      </div>
-      <div class="stat-divider d-none d-md-block"></div>
-      <div class="stat-item">
-        <span class="stat-num">6 anos</span>
-        <span class="stat-label">De impacto real</span>
+  <nav class="navbar navbar-expand-lg site-navbar" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#inicio">
+        <span class="brand-mark__seal">VF</span>
+        <span class="brand-mark__text">
+          <strong>Vidas que Florescem</strong>
+          <small>Projeto social voluntário</small>
+        </span>
+      </a>
+      <button class="navbar-toggler nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Abrir navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainMenu">
+        <ul class="navbar-nav align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pilares">Pilares</a></li>
+          <li class="nav-item"><a class="nav-link" href="#impacto">Impacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#envolva-se">Como ajudar</a></li>
+          <li class="nav-item mt-3 mt-lg-0 ms-lg-2"><a class="btn btn-soft" href="#contato">Quero participar</a></li>
+        </ul>
       </div>
     </div>
-  </div>
-  <div class="hero-scroll-hint">
-    <span></span>
-  </div>
-</section>
+  </nav>
 
-<!-- CARDS / PROJETOS -->
-<section class="section-cards py-6" id="projetos">
-  <div class="container">
-    <div class="section-header text-center mb-5">
-      <span class="section-tag">O que fazemos</span>
-      <h2 class="section-title">Três pilares de transformação</h2>
-      <p class="section-sub">Atuamos de forma integrada para gerar mudanças duradouras nas comunidades.</p>
-    </div>
-
-    <div class="row g-4">
-
-      <div class="col-md-4">
-        <div class="pillar-card">
-          <div class="pillar-icon water">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C12 2 4 9.5 4 14a8 8 0 0016 0C20 9.5 12 2 12 2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 14.5a4 4 0 004 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-          </div>
-          <div class="pillar-content">
-            <h3>Água</h3>
-            <p>Gestão sustentável e acesso à água potável para comunidades vulneráveis, com cisternas e poços artesianos comunitários.</p>
-            <a href="#" class="pillar-link">Saiba mais →</a>
-          </div>
-          <div class="pillar-glow water-glow"></div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="pillar-card featured">
-          <div class="pillar-badge">Em destaque</div>
-          <div class="pillar-icon forest">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L7 10h3l-4 7h6v3h2v-3h6l-4-7h3L12 2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-          <div class="pillar-content">
-            <h3>Meio Ambiente</h3>
-            <p>Reflorestamento e preservação ecológica de áreas degradadas, com mais de 40 mil mudas plantadas nos últimos 3 anos.</p>
-            <a href="#" class="pillar-link">Saiba mais →</a>
-          </div>
-          <div class="pillar-glow forest-glow"></div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="pillar-card">
-          <div class="pillar-icon community">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 20H7a2 2 0 01-2-2v-1a5 5 0 015-5h4a5 5 0 015 5v1a2 2 0 01-2 2z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="7" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
-          </div>
-          <div class="pillar-content">
-            <h3>Comunidade</h3>
-            <p>Engajamento social e educação ambiental, formando líderes locais para multiplicar as boas práticas.</p>
-            <a href="#" class="pillar-link">Saiba mais →</a>
-          </div>
-          <div class="pillar-glow community-glow"></div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- IMPACTO -->
-<section class="section-impact py-6" id="impacto">
-  <div class="container">
-    <div class="impact-inner">
-      <div class="row align-items-center gy-5">
-        <div class="col-lg-5">
-          <span class="section-tag">Nosso impacto</span>
-          <h2 class="section-title">Números que<br>contam histórias</h2>
-          <p class="section-sub">Cada dado aqui representa uma família que teve acesso à água, uma árvore plantada, uma criança com esperança.</p>
-          <a href="#apoiar" class="btn btn-main mt-3">Fazer parte disso</a>
-        </div>
-        <div class="col-lg-7">
-          <div class="impact-grid">
-            <div class="impact-box">
-              <span class="impact-num">40k+</span>
-              <span class="impact-desc">Mudas plantadas</span>
+  <main>
+    <section class="hero-section" id="inicio">
+      <div class="hero-wash hero-wash--left"></div>
+      <div class="hero-wash hero-wash--right"></div>
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6">
+            <div class="eyebrow reveal">Presença, cuidado e futuro compartilhado</div>
+            <h1 class="hero-title reveal">Quando a comunidade encontra apoio, a vida volta a florescer.</h1>
+            <p class="hero-text reveal">
+              O Vidas que Florescem atua ao lado de famílias do nordeste brasileiro com ações voluntárias que unem acesso à água,
+              fortalecimento comunitário, cuidado com a infância e cultivo de esperança no cotidiano.
+            </p>
+            <div class="hero-actions reveal">
+              <a class="btn btn-primary-soft" href="#envolva-se">Apoiar o projeto</a>
+              <a class="btn btn-outline-soft" href="#pilares">Conhecer os pilares</a>
             </div>
-            <div class="impact-box accent">
-              <span class="impact-num">98%</span>
-              <span class="impact-desc">Satisfação das famílias</span>
-            </div>
-            <div class="impact-box accent">
-              <span class="impact-num">280</span>
-              <span class="impact-desc">Voluntários ativos</span>
-            </div>
-            <div class="impact-box">
-              <span class="impact-num">R$0</span>
-              <span class="impact-desc">Custo p/ comunidades</span>
+            <ul class="hero-trust reveal">
+              <li>Atuação voluntária em comunidades rurais e periféricas</li>
+              <li>Parcerias locais com escolas, lideranças e famílias</li>
+              <li>Projetos pensados com escuta, continuidade e respeito</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-visual reveal">
+              <div class="hero-visual__photo hero-visual__photo--main">
+                <div class="photo-copy">
+                  <span>Espaço para imagem real</span>
+                  <p>Encontros, mutirões, escuta e afeto em comunidade.</p>
+                </div>
+              </div>
+              <div class="hero-visual__photo hero-visual__photo--secondary"></div>
+              <div class="hero-note">
+                <strong>Feito com presença</strong>
+                <p>Mais do que assistência, criamos vínculos duradouros e caminhos de autonomia.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- CTA -->
-<section class="section-cta text-center py-6" id="apoiar">
-  <div class="cta-bg-shape s1"></div>
-  <div class="cta-bg-shape s2"></div>
-  <div class="container position-relative">
-    <span class="section-tag">Participe</span>
-    <h2 class="cta-title">Faça parte dessa<br>transformação</h2>
-    <p class="cta-sub">Sua contribuição — de qualquer tamanho — muda a vida de famílias inteiras.<br class="d-none d-md-inline">Juntos, cultivamos um futuro mais justo.</p>
-    <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
-      <a href="#" class="btn btn-main btn-lg-custom">Quero ajudar agora</a>
-      <a href="#" class="btn btn-ghost">Ser voluntário</a>
-    </div>
-  </div>
-</section>
+    <section class="intro-band reveal" id="sobre">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-4">
+            <p class="section-kicker">Sobre o projeto</p>
+            <h2 class="section-title">Uma iniciativa que cresce a partir das pessoas.</h2>
+          </div>
+          <div class="col-lg-8">
+            <p class="intro-band__text">
+              Cada ação nasce da realidade de quem vive o território. Nosso trabalho combina apoio imediato com construção de
+              soluções possíveis, respeitando a cultura local, o ritmo da comunidade e a força das redes de vizinhança.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- FOOTER -->
-<footer class="site-footer py-5">
-  <div class="container">
-    <div class="row align-items-center gy-3">
-      <div class="col-md-4">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-          <span class="brand-icon">🌱</span>
-          <span class="brand-text" style="font-size:1rem;">Vidas que Florescem</span>
-        </a>
+    <section class="section-space" id="pilares">
+      <div class="container">
+        <div class="section-heading text-center reveal">
+          <p class="section-kicker">Nossos pilares</p>
+          <h2 class="section-title">Frentes de cuidado que se fortalecem juntas.</h2>
+          <p class="section-description">
+            Organizamos as ações em pilares complementares, com foco em dignidade, continuidade e impacto real.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <article class="pillar-card reveal">
+              <div class="pillar-icon">01</div>
+              <h3>Água e segurança do cotidiano</h3>
+              <p>
+                Apoio a soluções de acesso, armazenamento e uso consciente da água, reduzindo vulnerabilidades que afetam saúde,
+                alimentação e permanência das famílias no território.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="pillar-card reveal">
+              <div class="pillar-icon pillar-icon--green">02</div>
+              <h3>Educação, infância e vínculo</h3>
+              <p>
+                Oficinas, escuta, reforço de repertório e ações de convivência que acolhem crianças, adolescentes e cuidadores com
+                proximidade e intencionalidade.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="pillar-card reveal">
+              <div class="pillar-icon pillar-icon--blue">03</div>
+              <h3>Comunidade e autonomia local</h3>
+              <p>
+                Mobilização de voluntários, fortalecimento de lideranças comunitárias e iniciativas que estimulam participação,
+                corresponsabilidade e continuidade.
+              </p>
+            </article>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 text-center">
-        <small class="footer-copy">© 2026 Vidas que Florescem. Todos os direitos reservados.</small>
+    </section>
+
+    <section class="section-space section-impact" id="impacto">
+      <div class="container">
+        <div class="impact-panel">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-5">
+              <div class="reveal">
+                <p class="section-kicker">Impacto construído no tempo</p>
+                <h2 class="section-title">Resultados que fazem sentido para quem vive a mudança.</h2>
+                <p class="section-description text-start mx-0">
+                  Os números ajudam a visualizar o alcance, mas o que realmente importa é o que eles representam: rotina mais digna,
+                  crianças com mais oportunidades e comunidades mais fortalecidas.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="impact-card reveal">
+                    <strong>420+</strong>
+                    <span>famílias acompanhadas em ações recorrentes</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="impact-card reveal">
+                    <strong>28</strong>
+                    <span>comunidades alcançadas com apoio local</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="impact-card reveal">
+                    <strong>160+</strong>
+                    <span>voluntários mobilizados ao longo das frentes</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="impact-card reveal">
+                    <strong>12 mil</strong>
+                    <span>itens e atendimentos entregues com escuta e acompanhamento</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 text-md-end">
-        <div class="footer-links d-flex gap-3 justify-content-md-end justify-content-start flex-wrap">
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Contato</a>
+    </section>
+
+    <section class="section-space">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-6">
+            <div class="story-card reveal">
+              <p class="section-kicker">Nosso jeito de fazer</p>
+              <h2 class="section-title">Acolher primeiro. Construir junto depois.</h2>
+              <p>
+                Trabalhamos com delicadeza e continuidade. Isso significa ouvir antes de propor, somar antes de substituir e desenhar
+                caminhos que possam permanecer mesmo depois de cada ação pontual.
+              </p>
+              <p>
+                A estética do projeto também nasce daí: clareza, simplicidade, calor humano e espaço para que a realidade de cada
+                comunidade apareça com respeito.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="quote-card reveal">
+              <p>
+                “Quando alguém chega aqui para ouvir de verdade, a ajuda muda de sentido. A gente não se sente só atendido. Se sente
+                lembrado.”
+              </p>
+              <span>Relato de liderança comunitária parceira</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-engage" id="envolva-se">
+      <div class="container">
+        <div class="section-heading text-center reveal">
+          <p class="section-kicker">Como ajudar</p>
+          <h2 class="section-title">Há muitas formas de caminhar com a gente.</h2>
+          <p class="section-description">
+            Toda contribuição pode virar presença concreta na vida de alguém, seja com tempo, recurso, conhecimento ou articulação.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <article class="engage-card reveal">
+              <h3>Doações conscientes</h3>
+              <p>Contribua para kits, deslocamentos, materiais educativos, ações sazonais e melhorias definidas junto às comunidades.</p>
+              <a href="#contato">Contribuir com recursos</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="engage-card reveal">
+              <h3>Voluntariado com propósito</h3>
+              <p>Participe de mutirões, apoio logístico, produção de oficinas, comunicação, escuta e acompanhamento de frentes locais.</p>
+              <a href="#contato">Quero ser voluntário</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="engage-card reveal">
+              <h3>Parcerias e rede de apoio</h3>
+              <p>Some sua escola, coletivo, empresa ou grupo comunitário para ampliar alcance com responsabilidade e continuidade.</p>
+              <a href="#contato">Construir parceria</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-cta" id="contato">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-8">
+              <p class="section-kicker">Vamos conversar</p>
+              <h2 class="section-title">Seu apoio pode sustentar encontros, cuidado e continuidade.</h2>
+              <p class="section-description text-start mx-0">
+                Se você acredita em transformação feita com proximidade, respeito e presença, este projeto tem espaço para você.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <div class="cta-actions">
+                <a class="btn btn-primary-soft" href="mailto:contato@vidasqueflorescem.org">Entrar em contato</a>
+                <a class="btn btn-outline-soft" href="https://instagram.com" target="_blank" rel="noreferrer">Acompanhar no Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-4">
+          <div class="brand-mark brand-mark--footer">
+            <span class="brand-mark__seal">VF</span>
+            <span class="brand-mark__text">
+              <strong>Vidas que Florescem</strong>
+              <small>Nordeste brasileiro • presença voluntária</small>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <p class="footer-copy">Projeto social construído com cuidado, escuta e ação compartilhada.</p>
+        </div>
+        <div class="col-lg-4">
+          <div class="footer-links">
+            <a href="#sobre">Sobre</a>
+            <a href="#impacto">Impacto</a>
+            <a href="#envolva-se">Como ajudar</a>
+            <a href="mailto:contato@vidasqueflorescem.org">Contato</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  const nav = document.getElementById('mainNav');
-  window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 40);
-  });
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    const nav = document.getElementById('mainNav');
+    const revealItems = document.querySelectorAll('.reveal');
 
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
-    a.addEventListener('click', e => {
-      const target = document.querySelector(a.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('is-scrolled', window.scrollY > 24);
     });
-  });
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(el => el.isIntersecting && el.target.classList.add('visible'));
-  }, { threshold: 0.15 });
-  document.querySelectorAll('.pillar-card, .impact-box, .stat-item').forEach(el => observer.observe(el));
-</script>
+    document.querySelectorAll('a[href^="#"]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (!target) return;
+        event.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.14 });
+
+    revealItems.forEach((item) => revealObserver.observe(item));
+  </script>
 </body>
 </html>
