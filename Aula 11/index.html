@@ -3,332 +3,301 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Vidas que Florescem é um projeto social voluntário no nordeste brasileiro que fortalece comunidades com cuidado, água, formação e presença.">
-  <title>Vidas que Florescem</title>
+  <meta name="description" content="Landing page temática do Batman com estética de quadrinhos, humor e atmosfera de Gotham.">
+  <title>Gotham Precisa de Você</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg site-navbar" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand brand-mark" href="#inicio">
-        <span class="brand-mark__seal">VF</span>
-        <span class="brand-mark__text">
-          <strong>Vidas que Florescem</strong>
-          <small>Projeto social voluntário</small>
-        </span>
-      </a>
-      <button class="navbar-toggler nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Abrir navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="mainMenu">
-        <ul class="navbar-nav align-items-lg-center gap-lg-2">
-          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#pilares">Pilares</a></li>
-          <li class="nav-item"><a class="nav-link" href="#impacto">Impacto</a></li>
-          <li class="nav-item"><a class="nav-link" href="#envolva-se">Como ajudar</a></li>
-          <li class="nav-item mt-3 mt-lg-0 ms-lg-2"><a class="btn btn-soft" href="#contato">Quero participar</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <main>
-    <section class="hero-section" id="inicio">
-      <div class="hero-wash hero-wash--left"></div>
-      <div class="hero-wash hero-wash--right"></div>
+  <div class="comic-shell">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg site-navbar sticky-top">
       <div class="container">
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-6">
-            <div class="eyebrow reveal">Presença, cuidado e futuro compartilhado</div>
-            <h1 class="hero-title reveal">Quando a comunidade encontra apoio, a vida volta a florescer.</h1>
-            <p class="hero-text reveal">
-              O Vidas que Florescem atua ao lado de famílias do nordeste brasileiro com ações voluntárias que unem acesso à água,
-              fortalecimento comunitário, cuidado com a infância e cultivo de esperança no cotidiano.
-            </p>
-            <div class="hero-actions reveal">
-              <a class="btn btn-primary-soft" href="#envolva-se">Apoiar o projeto</a>
-              <a class="btn btn-outline-soft" href="#pilares">Conhecer os pilares</a>
-            </div>
-            <ul class="hero-trust reveal">
-              <li>Atuação voluntária em comunidades rurais e periféricas</li>
-              <li>Parcerias locais com escolas, lideranças e famílias</li>
-              <li>Projetos pensados com escuta, continuidade e respeito</li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <div class="hero-visual reveal">
-              <div class="hero-visual__photo hero-visual__photo--main">
-                <div class="photo-copy">
-                  <span>Espaço para imagem real</span>
-                  <p>Encontros, mutirões, escuta e afeto em comunidade.</p>
-                </div>
-              </div>
-              <div class="hero-visual__photo hero-visual__photo--secondary"></div>
-              <div class="hero-note">
-                <strong>Feito com presença</strong>
-                <p>Mais do que assistência, criamos vínculos duradouros e caminhos de autonomia.</p>
-              </div>
-            </div>
-          </div>
+        <a class="navbar-brand brand-bat" href="#inicio">
+          <span class="brand-bat__logo">BAT</span>
+          <span class="brand-bat__text">
+            BatPortal
+            <small>Gotham Edition</small>
+          </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuBatman" aria-controls="menuBatman" aria-expanded="false" aria-label="Abrir navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuBatman">
+          <ul class="navbar-nav ms-auto align-items-lg-center me-lg-3 mb-3 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#viloes">Vilões</a></li>
+            <li class="nav-item"><a class="nav-link" href="#noticias">Notícias</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          </ul>
+
+          <form class="d-flex search-pill" role="search">
+            <input class="form-control" type="search" placeholder="Buscar no Batcomputador" aria-label="Buscar">
+            <button class="btn" type="submit">Ir!</button>
+          </form>
         </div>
       </div>
-    </section>
+    </nav>
 
-    <section class="intro-band reveal" id="sobre">
-      <div class="container">
-        <div class="row align-items-center gy-4">
-          <div class="col-lg-4">
-            <p class="section-kicker">Sobre o projeto</p>
-            <h2 class="section-title">Uma iniciativa que cresce a partir das pessoas.</h2>
-          </div>
-          <div class="col-lg-8">
-            <p class="intro-band__text">
-              Cada ação nasce da realidade de quem vive o território. Nosso trabalho combina apoio imediato com construção de
-              soluções possíveis, respeitando a cultura local, o ritmo da comunidade e a força das redes de vizinhança.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-space" id="pilares">
-      <div class="container">
-        <div class="section-heading text-center reveal">
-          <p class="section-kicker">Nossos pilares</p>
-          <h2 class="section-title">Frentes de cuidado que se fortalecem juntas.</h2>
-          <p class="section-description">
-            Organizamos as ações em pilares complementares, com foco em dignidade, continuidade e impacto real.
-          </p>
-        </div>
-        <div class="row g-4">
-          <div class="col-md-6 col-xl-4">
-            <article class="pillar-card reveal">
-              <div class="pillar-icon">01</div>
-              <h3>Água e segurança do cotidiano</h3>
-              <p>
-                Apoio a soluções de acesso, armazenamento e uso consciente da água, reduzindo vulnerabilidades que afetam saúde,
-                alimentação e permanência das famílias no território.
-              </p>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="pillar-card reveal">
-              <div class="pillar-icon pillar-icon--green">02</div>
-              <h3>Educação, infância e vínculo</h3>
-              <p>
-                Oficinas, escuta, reforço de repertório e ações de convivência que acolhem crianças, adolescentes e cuidadores com
-                proximidade e intencionalidade.
-              </p>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="pillar-card reveal">
-              <div class="pillar-icon pillar-icon--blue">03</div>
-              <h3>Comunidade e autonomia local</h3>
-              <p>
-                Mobilização de voluntários, fortalecimento de lideranças comunitárias e iniciativas que estimulam participação,
-                corresponsabilidade e continuidade.
-              </p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-space section-impact" id="impacto">
-      <div class="container">
-        <div class="impact-panel">
-          <div class="row align-items-center gy-5">
-            <div class="col-lg-5">
-              <div class="reveal">
-                <p class="section-kicker">Impacto construído no tempo</p>
-                <h2 class="section-title">Resultados que fazem sentido para quem vive a mudança.</h2>
-                <p class="section-description text-start mx-0">
-                  Os números ajudam a visualizar o alcance, mas o que realmente importa é o que eles representam: rotina mais digna,
-                  crianças com mais oportunidades e comunidades mais fortalecidas.
-                </p>
-              </div>
-            </div>
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="inicio">
+        <div class="container">
+          <div class="row align-items-center g-4">
             <div class="col-lg-7">
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <div class="impact-card reveal">
-                    <strong>420+</strong>
-                    <span>famílias acompanhadas em ações recorrentes</span>
+              <div class="hero-panel reveal">
+                <div class="speech-bubble reveal delay-1">Alfred avisa: Gotham está um caos charmoso e o sofá da Batcaverna não resolve tudo sozinho.</div>
+                <h1 class="hero-title reveal delay-2">Gotham precisa de você!</h1>
+                <p class="hero-copy reveal delay-3">
+                  Entre numa cruzada gloriosamente exagerada contra risadas suspeitas, charadas longas demais e pinguins bem vestidos.
+                  Se o BatSinal apareceu no seu quintal, não ignore. Pode ser destino. Ou o vizinho testando refletores.
+                </p>
+                <div class="hero-actions reveal delay-4">
+                  <a class="btn-comic" href="#cta-final">Ative o BatSinal no seu quintal!</a>
+                  <a class="btn-comic-outline" href="#viloes">Ver lista de confusão</a>
+                </div>
+
+                <div class="hero-stats reveal delay-5">
+                  <div class="hero-stat">
+                    <strong>87%</strong>
+                    <span>menos drama quando alguém acende o sinal</span>
+                  </div>
+                  <div class="hero-stat">
+                    <strong>12</strong>
+                    <span>gadgets suspeitamente úteis por noite</span>
+                  </div>
+                  <div class="hero-stat">
+                    <strong>∞</strong>
+                    <span>paciência do Alfred em dias normais</span>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="impact-card reveal">
-                    <strong>28</strong>
-                    <span>comunidades alcançadas com apoio local</span>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="hero-scene reveal delay-3">
+                <div class="pow-tag">POW!</div>
+                <div class="bubble-note">Dica oficial: capa preta ajuda no estilo, mas atitude salva mais tempo.</div>
+                <div class="bat-signal"></div>
+                <div class="spotlight-beam"></div>
+                <div class="bam-tag">BAM!</div>
+
+                <div class="mini-panel-row">
+                  <div class="mini-panel">
+                    <span>HQ</span>
+                    <p>bordas grossas, sombras absurdas e energia de página virada</p>
                   </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="impact-card reveal">
-                    <strong>160+</strong>
-                    <span>voluntários mobilizados ao longo das frentes</span>
+                  <div class="mini-panel">
+                    <span>Gotham</span>
+                    <p>névoa, drama e arranha-céus com sérias questões arquitetônicas</p>
                   </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="impact-card reveal">
-                    <strong>12 mil</strong>
-                    <span>itens e atendimentos entregues com escuta e acompanhamento</span>
+                  <div class="mini-panel">
+                    <span>Humor</span>
+                    <p>porque salvar a cidade também pode render boas piadas</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section-space">
+      <!-- Vilões -->
+      <section class="section-pad" id="viloes">
+        <div class="container">
+          <div class="section-intro reveal">
+            <span class="section-tag">Arkham List</span>
+            <h2 class="section-title">Os nomes mais insistentes de Gotham</h2>
+            <p class="section-copy">
+              Alguns estão presos, outros fugiram, e todos têm talento especial para estragar uma terça-feira tranquila.
+            </p>
+          </div>
+
+          <div class="row comic-grid">
+            <div class="col-md-6 col-xl-4">
+              <article class="comic-card reveal delay-1">
+                <div class="villain-top">
+                  <h3>Coringa</h3>
+                  <span class="status-badge escape">Fugiu</span>
+                </div>
+                <p>Transforma qualquer plano simples em um circo caótico com gargalhadas, tinta roxa e decisões péssimas.</p>
+                <div class="villain-quote">"Se está calmo demais, ele provavelmente já preparou confete explosivo."</div>
+                <div class="threat-meter">
+                  <small>Nível de caos</small>
+                  <div class="threat-track"><div class="threat-fill" style="width: 97%;"></div></div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+              <article class="comic-card reveal delay-2">
+                <div class="villain-top">
+                  <h3>Charada</h3>
+                  <span class="status-badge safe">Preso</span>
+                </div>
+                <p>Adora enigmas longos, ego gigante e a estranha crença de que todo mundo ama prova surpresa.</p>
+                <div class="villain-quote">"Se você respondeu rápido, ele cria mais três pistas só de birra."</div>
+                <div class="threat-meter">
+                  <small>Nível de confusão</small>
+                  <div class="threat-track"><div class="threat-fill" style="width: 74%;"></div></div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+              <article class="comic-card reveal delay-3">
+                <div class="villain-top">
+                  <h3>Pinguim</h3>
+                  <span class="status-badge escape">Fugiu</span>
+                </div>
+                <p>Chega impecável, negocia torto e sempre tem um guarda-chuva que faz muito mais do que devia.</p>
+                <div class="villain-quote">"Parece elegante até o guarda-chuva começar a chiar de forma suspeita."</div>
+                <div class="threat-meter">
+                  <small>Nível de trambicagem</small>
+                  <div class="threat-track"><div class="threat-fill" style="width: 81%;"></div></div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+              <article class="comic-card reveal delay-4">
+                <div class="villain-top">
+                  <h3>Arlequina</h3>
+                  <span class="status-badge safe">Preso</span>
+                </div>
+                <p>Improviso total, acrobacias perigosas e energia suficiente para transformar caos em espetáculo.</p>
+                <div class="villain-quote">"Nunca subestime alguém que sorri antes de sacar um martelo."</div>
+                <div class="threat-meter">
+                  <small>Nível de imprevisibilidade</small>
+                  <div class="threat-track"><div class="threat-fill" style="width: 88%;"></div></div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+              <article class="comic-card reveal delay-5">
+                <div class="villain-top">
+                  <h3>Sr. Frio</h3>
+                  <span class="status-badge safe">Preso</span>
+                </div>
+                <p>Temperatura emocional baixíssima, discurso dramático impecável e obsessão por congelar agendas inteiras.</p>
+                <div class="villain-quote">"Se sua respiração virou fumaça, corra ou pegue um casaco heroico."</div>
+                <div class="threat-meter">
+                  <small>Nível de gelo</small>
+                  <div class="threat-track"><div class="threat-fill" style="width: 69%;"></div></div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+              <article class="comic-card reveal delay-6">
+                <div class="villain-top">
+                  <h3>Hera Venenosa</h3>
+                  <span class="status-badge escape">Fugiu</span>
+                </div>
+                <p>Fala com plantas, domina estufas e transforma qualquer jardim em argumento ecológico bem ameaçador.</p>
+                <div class="villain-quote">"Bonito, perfumado e perigosamente fotossintético."</div>
+                <div class="threat-meter">
+                  <small>Nível de enraizamento</small>
+                  <div class="threat-track"><div class="threat-fill" style="width: 84%;"></div></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Notícias -->
+      <section class="section-pad" id="noticias">
+        <div class="container">
+          <div class="section-intro reveal">
+            <span class="section-tag">BatNotícias</span>
+            <h2 class="section-title">Últimas manchetes direto de Gotham</h2>
+            <p class="section-copy">
+              Jornalismo dramático, fontes confiáveis e pelo menos um repórter jurando que viu um gancho subir em linha reta.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <article class="news-card reveal delay-1">
+                <img alt="Ilustração estilizada do Coringa fugindo em Gotham" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 520'><defs><linearGradient id='g' x1='0' x2='1' y1='0' y2='1'><stop stop-color='%23131a2a'/><stop offset='1' stop-color='%23090b12'/></linearGradient></defs><rect width='800' height='520' fill='url(%23g)'/><circle cx='640' cy='110' r='82' fill='%23ffd54a' opacity='0.88'/><rect x='80' y='280' width='80' height='180' fill='%23283247'/><rect x='180' y='220' width='120' height='240' fill='%231a2233'/><rect x='330' y='180' width='95' height='280' fill='%23212c44'/><rect x='450' y='250' width='60' height='210' fill='%2328334c'/><rect x='540' y='205' width='140' height='255' fill='%23182336'/><text x='88' y='124' font-size='82' font-family='Arial Black' fill='%23ffffff'>HA!</text><text x='330' y='370' font-size='124' font-family='Arial Black' fill='%23ff5e7a'>JOKER</text><path d='M505 145c24-40 56-48 75-22 11 16 10 40-8 57-22 21-48 17-72 4-18-10-14-20 5-39z' fill='%2391f275'/></svg>">
+                <div class="news-body">
+                  <span class="news-kicker">Urgente</span>
+                  <h3>Coringa apronta novamente!</h3>
+                  <p>Autoridades confirmam que a fuga envolveu cartas gigantes, uma piada ruim e trânsito pior ainda na ponte central.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4">
+              <article class="news-card reveal delay-2">
+                <img alt="Ilustração estilizada do Batman sobrevoando Gotham" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 520'><defs><linearGradient id='g2' x1='0' x2='1' y1='0' y2='1'><stop stop-color='%230e1421'/><stop offset='1' stop-color='%231d2740'/></linearGradient></defs><rect width='800' height='520' fill='url(%23g2)'/><circle cx='144' cy='140' r='92' fill='%23ffd54a'/><path d='M360 170c50-20 110-18 170 16 40 23 64 27 96 25-30 26-68 38-120 38-20 14-41 24-63 31 8-16 10-26 3-33-26 4-52 3-83-4 14-18 12-42-3-73z' fill='%23000000'/><rect x='88' y='280' width='95' height='180' fill='%23172235'/><rect x='210' y='240' width='85' height='220' fill='%23263147'/><rect x='322' y='208' width='120' height='252' fill='%23101828'/><rect x='472' y='266' width='74' height='194' fill='%23273449'/><rect x='576' y='230' width='130' height='230' fill='%23131b2e'/><text x='418' y='420' font-size='112' font-family='Arial Black' fill='%23ffffff'>SWOOP</text></svg>">
+                <div class="news-body">
+                  <span class="news-kicker">Plantão</span>
+                  <h3>Batman salva mais um dia... de novo</h3>
+                  <p>Moradores relatam alívio, admiração e a leve frustração de nunca conseguirem uma selfie em foco com o herói.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4">
+              <article class="news-card reveal delay-3">
+                <img alt="Ilustração estilizada do BatSinal iluminando Gotham" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 520'><defs><linearGradient id='g3' x1='0' x2='1' y1='0' y2='1'><stop stop-color='%23090b12'/><stop offset='1' stop-color='%23192439'/></linearGradient></defs><rect width='800' height='520' fill='url(%23g3)'/><path d='M390 520l-60-240h120z' fill='%23ffd54a' opacity='0.28'/><circle cx='392' cy='210' r='110' fill='%23ffd54a' opacity='0.96'/><text x='310' y='232' font-size='84' font-family='Arial Black' fill='%23000000'>BAT</text><rect x='86' y='320' width='70' height='140' fill='%23192339'/><rect x='180' y='280' width='95' height='180' fill='%23222f4d'/><rect x='304' y='248' width='72' height='212' fill='%23131a2d'/><rect x='414' y='290' width='88' height='170' fill='%2326334b'/><rect x='530' y='226' width='130' height='234' fill='%23131c33'/><text x='86' y='124' font-size='74' font-family='Arial Black' fill='%23ffffff'>GLOW!</text></svg>">
+                <div class="news-body">
+                  <span class="news-kicker">Cidade</span>
+                  <h3>BatSinal causa fila de curiosos no telhado</h3>
+                  <p>Especialistas suspeitam que 60% da população só subiu para ver o brilho. Os outros 40% levaram binóculo e lanche.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA secundário -->
+      <section class="section-pad pt-0" id="cta-final">
+        <div class="container">
+          <div class="cta-banner reveal">
+            <span class="section-tag">Chamado Final</span>
+            <h2>Gotham não se protege sozinha</h2>
+            <p>
+              Se a cidade vai continuar inteira até o próximo pôr do sol, alguém precisa apertar o botão, vestir a coragem e aceitar que um pouco de teatralidade faz parte do trabalho.
+            </p>
+            <a class="btn-comic" href="#contato">Acender o BatSinal agora</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-panel" id="contato">
       <div class="container">
-        <div class="row g-4 align-items-stretch">
+        <div class="row align-items-center">
           <div class="col-lg-6">
-            <div class="story-card reveal">
-              <p class="section-kicker">Nosso jeito de fazer</p>
-              <h2 class="section-title">Acolher primeiro. Construir junto depois.</h2>
-              <p>
-                Trabalhamos com delicadeza e continuidade. Isso significa ouvir antes de propor, somar antes de substituir e desenhar
-                caminhos que possam permanecer mesmo depois de cada ação pontual.
-              </p>
-              <p>
-                A estética do projeto também nasce daí: clareza, simplicidade, calor humano e espaço para que a realidade de cada
-                comunidade apareça com respeito.
-              </p>
-            </div>
+            <p class="footer-copy mb-0">
+              Feito para fãs de Gotham, caos controlado e botões amarelos brilhando com responsabilidade heroica.
+            </p>
           </div>
           <div class="col-lg-6">
-            <div class="quote-card reveal">
-              <p>
-                “Quando alguém chega aqui para ouvir de verdade, a ajuda muda de sentido. A gente não se sente só atendido. Se sente
-                lembrado.”
-              </p>
-              <span>Relato de liderança comunitária parceira</span>
+            <div class="footer-links">
+              <a href="#inicio">Início</a>
+              <a href="#viloes">Vilões</a>
+              <a href="#noticias">Notícias</a>
+              <a href="#cta-final">BatSinal</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="section-space section-engage" id="envolva-se">
-      <div class="container">
-        <div class="section-heading text-center reveal">
-          <p class="section-kicker">Como ajudar</p>
-          <h2 class="section-title">Há muitas formas de caminhar com a gente.</h2>
-          <p class="section-description">
-            Toda contribuição pode virar presença concreta na vida de alguém, seja com tempo, recurso, conhecimento ou articulação.
-          </p>
-        </div>
-        <div class="row g-4">
-          <div class="col-md-6 col-xl-4">
-            <article class="engage-card reveal">
-              <h3>Doações conscientes</h3>
-              <p>Contribua para kits, deslocamentos, materiais educativos, ações sazonais e melhorias definidas junto às comunidades.</p>
-              <a href="#contato">Contribuir com recursos</a>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="engage-card reveal">
-              <h3>Voluntariado com propósito</h3>
-              <p>Participe de mutirões, apoio logístico, produção de oficinas, comunicação, escuta e acompanhamento de frentes locais.</p>
-              <a href="#contato">Quero ser voluntário</a>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="engage-card reveal">
-              <h3>Parcerias e rede de apoio</h3>
-              <p>Some sua escola, coletivo, empresa ou grupo comunitário para ampliar alcance com responsabilidade e continuidade.</p>
-              <a href="#contato">Construir parceria</a>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-space section-cta" id="contato">
-      <div class="container">
-        <div class="cta-panel reveal">
-          <div class="row align-items-center gy-4">
-            <div class="col-lg-8">
-              <p class="section-kicker">Vamos conversar</p>
-              <h2 class="section-title">Seu apoio pode sustentar encontros, cuidado e continuidade.</h2>
-              <p class="section-description text-start mx-0">
-                Se você acredita em transformação feita com proximidade, respeito e presença, este projeto tem espaço para você.
-              </p>
-            </div>
-            <div class="col-lg-4 text-lg-end">
-              <div class="cta-actions">
-                <a class="btn btn-primary-soft" href="mailto:contato@vidasqueflorescem.org">Entrar em contato</a>
-                <a class="btn btn-outline-soft" href="https://instagram.com" target="_blank" rel="noreferrer">Acompanhar no Instagram</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row gy-4 align-items-center">
-        <div class="col-lg-4">
-          <div class="brand-mark brand-mark--footer">
-            <span class="brand-mark__seal">VF</span>
-            <span class="brand-mark__text">
-              <strong>Vidas que Florescem</strong>
-              <small>Nordeste brasileiro • presença voluntária</small>
-            </span>
-          </div>
-        </div>
-        <div class="col-lg-4 text-center">
-          <p class="footer-copy">Projeto social construído com cuidado, escuta e ação compartilhada.</p>
-        </div>
-        <div class="col-lg-4">
-          <div class="footer-links">
-            <a href="#sobre">Sobre</a>
-            <a href="#impacto">Impacto</a>
-            <a href="#envolva-se">Como ajudar</a>
-            <a href="mailto:contato@vidasqueflorescem.org">Contato</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script>
-    const nav = document.getElementById('mainNav');
-    const revealItems = document.querySelectorAll('.reveal');
-
-    window.addEventListener('scroll', () => {
-      nav.classList.toggle('is-scrolled', window.scrollY > 24);
-    });
-
-    document.querySelectorAll('a[href^="#"]').forEach((link) => {
-      link.addEventListener('click', (event) => {
-        const target = document.querySelector(link.getAttribute('href'));
-        if (!target) return;
-        event.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    });
-
-    const revealObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          revealObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.14 });
-
-    revealItems.forEach((item) => revealObserver.observe(item));
-  </script>
 </body>
 </html>
