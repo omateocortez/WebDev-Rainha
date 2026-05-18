@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Grid Demo</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="rowsCols.css">
+</head>
+
+<body>
+
+    <div class="container py-5">
+
+        <header class="mb-5 text-center">
+            <h1 class="titulo">
+                Demonstração de Grid Responsivo
+            </h1>
+
+            <p class="subtitulo">
+                Redimensione a tela para ver o comportamento das colunas.
+            </p>
+        </header>
+
+        <!-- EXEMPLO 1 -->
+
+        <section class="demo-section">
+
+            <h2 class="mb-4">
+                col-md-6
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-12">
+                    <div class="demo-box azul">
+                        <h3>Coluna 1</h3>
+
+                        <p>
+                            col-md-6 E col-12
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <div class="demo-box azul">
+                        <h3>Coluna 2</h3>
+
+                        <p>
+                            col-md-6 E col-12
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EXEMPLO 2 -->
+
+        <section class="demo-section">
+
+            <h2 class="mb-4">
+                col-md-4
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4 col-12">
+                    <div class="demo-box verde">
+                        <h3>1</h3>
+
+                        <p>
+                            col-md-4 E col-12 </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="demo-box verde">
+                        <h3>2</h3>
+
+                        <p>
+                            col-md-4 E col-12 </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="demo-box verde">
+                        <h3>3</h3>
+
+                        <p>
+                            col-md-4 E col-12 </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EXEMPLO 3 -->
+
+        <section class="demo-section">
+
+            <h2 class="mb-4">
+                col-lg-3
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="demo-box roxo">
+                        <h3>A</h3>
+
+                        <p>
+                            col-lg-3 E col-md-6 E col-12 </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="demo-box roxo">
+                        <h3>B</h3>
+
+                        <p>
+                            col-lg-3 E col-md-6 E col-12 </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="demo-box roxo">
+                        <h3>C</h3>
+
+                        <p>
+                            col-lg-3 E col-md-6 E col-12 </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="demo-box roxo">
+                        <h3>D</h3>
+
+                        <p>
+                            col-lg-3 E col-md-6 E col-12 </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- RÉGUA RESPONSIVA -->
+
+    <div class="breakpoint-indicator">
+
+        <span class="d-inline d-none">
+            XXS
+        </span>
+
+        <span class="d-inline d-sm-none">
+            XS
+        </span>
+
+        <span class="d-none d-sm-inline d-md-none">
+            SM
+        </span>
+
+        <span class="d-none d-md-inline d-lg-none">
+            MD
+        </span>
+
+        <span class="d-none d-lg-inline d-xl-none">
+            LG
+        </span>
+
+        <span class="d-none d-xl-inline d-xxl-none">
+            XL
+        </span>
+
+        <span class="d-none d-xxl-inline">
+            XXL
+        </span>
+
+    </div>
+
+</body>
+
+</html>
